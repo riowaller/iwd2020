@@ -7,7 +7,12 @@ function Output({ charArr, click }) {
         <div >
             {charArr.map((char, index) => {
                 return (
-                    <div key={index}  onClick={()=>click(index)} className={classes.Output} >{char}</div>
+                    <div 
+                        key={index}  
+                        onClick={()=>click(index)} 
+                        className={classes.Output} >
+                        {char}
+                    </div>
                 )
             })
             }
