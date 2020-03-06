@@ -1,6 +1,6 @@
 import React, { useState, useRef } from 'react';
 
-import Output from './Output'
+import Output from '../components/Output'
 
 function Input() {
   const [charArr, setCharArr] = useState([])
